@@ -1420,6 +1420,8 @@ def sample_identifiers():
                        'https://www.ebi.ac.uk/ena/data/view/PRJNA224116'),
         'biosample': ('SAMN08289383',
                       'https://www.ebi.ac.uk/ena/data/view/SAMN08289383'),
+        'cstr': ('31253.11.sciencedb.00024',
+                'https://cstr.cn/31253.11.sciencedb.00024'),
         'doi': ('10.1002/example',
                 'https://doi.org/10.1002/example'),
         'ean13': ('4006381333931', ''),
