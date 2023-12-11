@@ -2122,6 +2122,7 @@
     <xsl:variable name="ror"></xsl:variable>
     <xsl:variable name="n2t">http://n2t.net/</xsl:variable>
     <xsl:variable name="arxiv">http://arxiv.org/abs/</xsl:variable>
+    <xsl:variable name="cstr">https://cstr.cn/</xsl:variable>
     <xsl:variable name="doi">https://doi.org/</xsl:variable>
     <xsl:variable name="bibcode">http://adsabs.harvard.edu/abs/</xsl:variable>
     <xsl:variable name="pmid">http://www.ncbi.nlm.nih.gov/pubmed/</xsl:variable>
@@ -2160,6 +2161,9 @@
       </xsl:when>
       <xsl:when test="$type = 'bibcode'">
         <xsl:value-of select="concat($bibcode,$identifier)"/>
+      </xsl:when>
+      <xsl:when test="$type = 'cstr'">
+        <xsl:value-of select="concat($cstr,$identifier)"/>
       </xsl:when>
       <xsl:when test="$type = 'doi'">
         <xsl:value-of select="concat($doi,$identifier)"/>
