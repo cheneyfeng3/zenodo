@@ -11,7 +11,8 @@
     <xs:restriction base="xs:string">
       <xs:enumeration value="ARK"/>
       <xs:enumeration value="arXiv"/>
-      <xs:enumeration value="bibcode"/>
+      <xs:enumeration value="bibcode"/>      
+      <xs:enumeration value="CSTR"/>
       <xs:enumeration value="DOI"/>
       <xs:enumeration value="EAN13"/>
       <xs:enumeration value="EISSN"/>
